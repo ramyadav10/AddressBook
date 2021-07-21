@@ -35,8 +35,8 @@ public class CreateTheList {
     }
     public static void main(String[] args) {
         System.out.println("Welcome to the Address Book");
-        CreateTheList contacts = new CreateTheList("Veeresh", "S B", "KBG",
-                "Hubli", 581110,"Karnataka",1234567890,"abcd@gmail.com");
+        CreateTheList contacts = new CreateTheList("Ram", "Yadav", "GND",
+                "Mumbai", 123456,"Maharashtra",1234567890,"Test@gmail.com");
         contacts.details();
     }
 }
